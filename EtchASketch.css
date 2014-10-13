@@ -1,0 +1,68 @@
+body {
+	line-height: 0px;
+}
+
+.controls {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.picker {
+	width:30px;
+	height:30px;
+	border-radius: 100%;
+	cursor:pointer;
+	border: 2px solid black;
+}
+
+#black {
+	background-color: black;
+}
+
+#white {
+	background-color: white;
+}
+
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#wild {
+	border: 1px solid black;
+	background: radial-gradient(ellipse at center, #c93926 0%,#26b21c 49%,#9b239b 100%)
+}
+
+p {
+	text-align: center;
+}
+
+.container{
+	cursor: crosshair;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.pix {
+	float:left;
+	margin:0;
+	padding:0;
+	width:10px;
+	height:10px;
+	background-color:#f9f9f9;
+	display:inline-block;
+}
+
+.test {
+	width: 25px;
+	height:25px;
+	background-color: red;	
+}
